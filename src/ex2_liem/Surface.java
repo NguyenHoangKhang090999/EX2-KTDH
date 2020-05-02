@@ -69,7 +69,7 @@ public class Surface extends JPanel{
 		g2d.setColor(Color.GRAY);
 		g2d.setStroke(new BasicStroke(1));
 		for (int i = 0; i <= 80; i++) {
-			g2d.drawLine(15 * i, 0, 15 * i, 750);// moi don vi la 15pixel
+			g2d.drawLine(15 * i, 0, 15 * i, 750);// ta se set 15 don vi pixel tren mot square
 			g2d.drawLine(0, 15 * i, 750, 15 * i);
 		}
 		g2d.setStroke(new BasicStroke(2));
